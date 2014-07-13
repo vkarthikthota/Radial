@@ -1,0 +1,65 @@
+[
+    {
+    "name":"COMPUTER SCIENCE",
+    "imports":
+    [
+      "CS.CMPS 5J",
+      "CS.CMPS 11",
+      "CS.CMPS 12A/L",
+      "CS.CMPS 12B/M",
+      "CS.CMPS 13H/L",
+      "CS.CMPS 101",
+      "CS.CMPS 102",
+      "CS.CMPS 104A",
+      "CS.CMPS 111",
+      "CS.CMPS 112",
+      "CS.CMPS 130"
+    ]
+    },
+    {"name":"MATH 19A","imports":["COMPUTER SCIENCE", "COMPUTER ENGINEERING"]},
+    {"name":"MATH 19B","imports":["COMPUTER SCIENCE", "COMPUTER ENGINEERING"]},
+    {"name":"MATH 23A","imports":["COMPUTER SCIENCE", "COMPUTER ENGINEERING"]},
+    {"name":"AMS 10 or MATH 21","imports":["COMPUTER SCIENCE", "COMPUTER ENGINEERING"]},
+    {"name":"AMS 20","imports":["COMPUTER ENGINEERING"]},
+
+    {"name":"PHYSICS 5A/L","imports":["COMPUTER ENGINEERING"]},
+    {"name":"PHYSICS 5B/M or CMPE 9","imports":["COMPUTER ENGINEERING"]},
+    {"name":"PHYSICS 5C/N","imports":["COMPUTER ENGINEERING"]},
+
+    {"name":"PHYSICS 6A/L or 5A/L","imports":["COMPUTER SCIENCE"]},
+    {"name":"PHYSICS 6B/M or 5B/M","imports":["COMPUTER SCIENCE"]},
+    {"name":"PHYSICS 6C/N or 5C/N","imports":["COMPUTER SCIENCE"]},
+
+
+    {
+    "name":"COMPUTER ENGINEERING",
+    "imports":
+    [
+      "CE.CMPE 12/L",
+      "CE.CMPE 13/L",
+      "CE.CMPE 100/L",
+      "CE.CMPE 110",
+      "CE.CMPE 121/L",
+      "CE.CMPE 185#",
+      "CE.CMPE 80E"
+    ]
+    },
+    {"name":"CS.CMPS 5J","imports":[]},
+    {"name":"CS.CMPS 11","imports":[]},
+    {"name":"CS.CMPS 12A/L","imports":[]},
+    {"name":"CS.CMPS 12B/M","imports":["COMPUTER ENGINEERING"]},
+    {"name":"CS.CMPS 13H/L","imports":[]},
+    {"name":"CS.CMPS 101","imports":["COMPUTER ENGINEERING"]},
+    {"name":"CS.CMPS 102","imports":[]},
+    {"name":"CS.CMPS 104A","imports":[]},
+    {"name":"CS.CMPS 111","imports":[]},
+    {"name":"CS.CMPS 112","imports":[]},
+    {"name":"CS.CMPS 130","imports":[]},
+    {"name":"CE.CMPE 12/L","imports":["COMPUTER SCIENCE"]},
+    {"name":"CE.CMPE 13/L","imports":[]},
+    {"name":"CE.CMPE 100/L", "imports":[]},
+    {"name":"CE.CMPE 110","imports":["COMPUTER SCIENCE"]},
+    {"name":"CE.CMPE 121/L", "imports":[]},
+    {"name":"CE.CMPE 185#", "imports":[]},
+    {"name":"CE.CMPE 80E", "imports":[]}
+]
